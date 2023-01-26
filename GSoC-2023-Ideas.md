@@ -1,0 +1,13 @@
+
+
+## Adding Support for and Testing New Database Systems
+
+SQLancer supports close to 20 database systems (see the subdirectories with the relevant database names at [src/sqlancer](https://github.com/sqlancer/sqlancer/tree/master/src/sqlancer)). Adding support for a new database system involves writing generators that generate SQL statements specific to the database system under test. The process of adding a new database system is described in the [CONTRIBUTING.md](https://github.com/sqlancer/sqlancer/blob/master/CONTRIBUTING.md#implementing-support-for-a-new-dbms) guide.
+
+The goal of this project could be to add support for one or multiple database systems, and test the systems aiming to report bugs to their developers. A key consideration when selecting a database system is to ensure that the developers of the system welcome bug reports and are actively fixing them. After gaining experience with adding support for a new database system, a secondary goal could be to make it easier to add additional database systems by refactoring parts of SQLancer. For example, most of the [TestOracle](https://github.com/sqlancer/sqlancer/blob/9275f1ddd1d3bb33c1a10f07f41ecf9b552fdfbd/src/sqlancer/common/oracle/TestOracle.java) have duplicated code, which could be unified.
+
+* **Expected outcomes**: Contributors are likely to add one or more testing implementations to SQLancer while being able to find and report bugs to database system developers (which can be exciting and addictive!). An optional outcome might be that refactorings make it easy to add new testing implementations in the future.
+* **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
+* **Expected size**: Either 175 or 350 hour
+* **Difficulty**: Medium
+* **Possible mentors**: TBD
