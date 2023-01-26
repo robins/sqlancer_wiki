@@ -11,3 +11,13 @@ The goal of this project could be to add support for one or multiple database sy
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
 * **Possible mentors**: TBD
+
+## SQLancer Website
+
+SQLancer lacks a project website. The goal of this project would be to create one. Pages could be created to visualize currently-supported database systems, a collection of resources, and a short tutorial. Optionally, statistics and graphs could be computed and visualized about bugs that have been found. An incomplete list is found in a [bugs.json](https://github.com/sqlancer/bugs/blob/master/bugs.json) file, and additionally, GitHub could be crawled to find [issue reports related to SQLancer](https://github.com/search?q=sqlancer).
+
+* **Expected outcomes**: This project is expected to lead to a project website hosted on a platform such as [GitHub Pages](https://pages.github.com/)
+* **Required skills**: Knowledge and experience with existing web technologies are expected; knowledge of a scripting language such as Python would be useful to visualize the bugs found by SQLancer
+* **Expected size**: Either 175 or 350 hour
+* **Difficulty**: Medium
+* **Possible mentors**: TBD
