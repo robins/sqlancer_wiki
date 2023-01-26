@@ -21,3 +21,13 @@ SQLancer lacks a project website. The goal of this project would be to create on
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
 * **Possible mentors**: TBD
+
+## Test Case Reduction
+
+SQLancer randomly generates test cases consisting of potentially hundreds or thousands of SQL statements. Once a bug is found, it is time-consuming to identify those SQL statements that are relevant for reproducing the bug. The goal of this project is to add automatic reduction support to SQLancer; once a bug is found, statements are systematically removed until a minimal bug-inducing test case is derived. Further explanation and a proof-of-concept implementation are included or linked to in an existing issue at [#333](https://github.com/sqlancer/sqlancer/issues/333).
+
+* **Expected outcomes**: This project will add reduction capability to SQLancer, which will save a lot of time for developers
+* **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
+* **Expected size**: Either 175 or 350 hour
+* **Difficulty**: Medium
+* **Possible mentors**: TBD
