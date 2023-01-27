@@ -33,12 +33,12 @@ SQLancer randomly generates test cases consisting of potentially hundreds or tho
 * **Possible mentors**: TBD
 
 
-## Supporting QPG for More Database Systems
+## Support Query Plan Guidance for More Database Systems
 
-Query Plan Guidance (QPG) is a test case generation method that is guided by unseen query plans. QPG has been integrated into SQLancer ([#641](https://github.com/sqlancer/sqlancer/issues/641)) and supports SQLite, TiDB, and CockroachDB. The goal of this project is to support QPG for other database systems in SQLancer and solve potential conflicts and issues. The core general logic of QPG is in [ProviderAdapter.java](https://github.com/sqlancer/sqlancer/blob/9275f1ddd1d3bb33c1a10f07f41ecf9b552fdfbd/src/sqlancer/ProviderAdapter.java#L115-L259), and each specific database system is required to implement three interface functions, such as the implementation for [SQLite](https://github.com/sqlancer/sqlancer/blob/9275f1ddd1d3bb33c1a10f07f41ecf9b552fdfbd/src/sqlancer/sqlite3/SQLite3Provider.java#L307-L347). 
+[Query Plan Guidance (QPG)](http://jinshengba.me/assets/pdf/qpg_icse23.pdf) is a test case generation method that is guided by query plans. QPG has been integrated into SQLancer ([#641](https://github.com/sqlancer/sqlancer/issues/641)) and supports SQLite, TiDB, and CockroachDB. The goal of this project is to support QPG for other database systems in SQLancer. The core general logic of QPG is in [ProviderAdapter.java](https://github.com/sqlancer/sqlancer/blob/9275f1ddd1d3bb33c1a10f07f41ecf9b552fdfbd/src/sqlancer/ProviderAdapter.java#L115-L259), and each specific database system is required to implement three interface functions, such as the implementation for [SQLite](https://github.com/sqlancer/sqlancer/blob/9275f1ddd1d3bb33c1a10f07f41ecf9b552fdfbd/src/sqlancer/sqlite3/SQLite3Provider.java#L307-L347).
 
-* **Expected outcomes**: This project will add QPG support for other database systems, such as MySQL, PostgreSQL.
-* **Required skills**: Reading academic papers and strong Java skills are essential. Experience with using Git as well as basic SQL knowledge is expected
+* **Expected outcomes**: This project will add QPG support for other database systems, such as MySQL, and PostgreSQL
+* **Required skills**: Strong Java skills are essential. Experience with using Git as well as basic SQL knowledge is expected
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
-* **Possible mentors**: TBD
+* **Possible mentors**: [Jinsheng Ba](http://jinshengba.me/)
