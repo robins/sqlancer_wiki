@@ -30,7 +30,7 @@ SQLancer randomly generates test cases consisting of potentially hundreds or tho
 * **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
-* **Possible mentors**: TBD
+* **Possible mentors**: [Yichen Yan](https://www.linkedin.com/in/yichen-yan-222250102/)
 
 
 ## Support Query Plan Guidance for More Database Systems
