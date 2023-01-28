@@ -22,6 +22,12 @@ The goal of this project could be to add support for one or multiple database sy
 * **Difficulty**: Medium
 * **Possible mentors**: TBD
 
+Various additional hints:
+
+* Most implementations use JDBC, which is well-supported by SQLancer.
+* To get an idea of what database systems you could consider supporting, the [DB-Engines ranking](https://db-engines.com/en/ranking/relational+dbms) or the [Database of Databases](https://dbdb.io/) might be useful.
+
+
 ## SQLancer Website
 
 SQLancer lacks a project website. The goal of this project would be to create one. Pages could be created to visualize currently-supported database systems, a collection of resources, and a short tutorial. Optionally, statistics and graphs could be computed and visualized about bugs that have been found. An incomplete list is found in a [bugs.json](https://github.com/sqlancer/bugs/blob/master/bugs.json) file, and additionally, GitHub could be crawled to find [issue reports related to SQLancer](https://github.com/search?q=sqlancer).
