@@ -26,6 +26,7 @@ Various additional hints:
 
 * Most implementations use JDBC, which is well-supported by SQLancer.
 * To get an idea of what database systems you could consider supporting, the [DB-Engines ranking](https://db-engines.com/en/ranking/relational+dbms) or the [Database of Databases](https://dbdb.io/) might be useful.
+* It would be useful to first contact the developers of the database system to check whether they would welcome a testing effort of their system.
 
 
 ## SQLancer Website
