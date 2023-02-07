@@ -20,7 +20,7 @@ The goal of this project could be to add support for one or multiple database sy
 * **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
-* **Possible mentors**: TBD
+* **Possible mentors**: [Anxing Zhang](https://github.com/SuriZhang), [Jinsheng Ba](http://jinshengba.me/)
 
 Various additional hints:
 
@@ -36,7 +36,7 @@ SQLancer lacks a project website. The goal of this project would be to create on
 * **Required skills**: Knowledge and experience with existing web technologies are expected; knowledge of a scripting language such as Python would be useful to visualize the bugs found by SQLancer
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
-* **Possible mentors**: TBD
+* **Possible mentors**: [Manuel Rigger](https://github.com/mrigger)
 
 ## Test Case Reduction
 
@@ -46,7 +46,7 @@ SQLancer randomly generates test cases consisting of potentially hundreds or tho
 * **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
-* **Possible mentors**: [Yichen Yan](https://www.linkedin.com/in/yichen-yan-222250102/)
+* **Possible mentors**: [Yichen Yan](https://www.linkedin.com/in/yichen-yan-222250102/), [Chi Zhang](https://ch1zhang.github.io/)
 
 
 ## Support Query Plan Guidance for More Database Systems
