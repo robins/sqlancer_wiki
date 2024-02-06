@@ -10,6 +10,14 @@ To maximize your chance of submitting a successful proposal, we recommend the fo
 
 # Projects Ideas
 
+## User Interface for SQLancer
+
+SQLancer's user interface is limited by printing regular status update to the command line. The goal of this project is to make SQLancer more user-friendly by creating a better user interface or a bug management tool. This interface could be implemented in various ways. For example, it could take [inspiration from AFL](https://en.wikipedia.org/wiki/American_Fuzzy_Lop_%28software%29#/media/File:American_fuzzy_lop's_afl-fuzz_running_on_a_test_program.png) by creating a better command line interface. As another example, it could take inspiration from [syzkaller's web interface](https://syzkaller.appspot.com/upstream) to manage the bugs that were found.
+
+* **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected. In addition, this project requires experience with creating user interfaces.
+* **Expected size**: 350 hours
+* **Difficulty**: Medium
+
 ## Updating SQLancer to the Latest Database System Versions
 
 SQLancer supports more than 20 database systems through custom SQL generators. However, many of these implementations are outdated. For example, the current MySQL that is support is version [8.30.0](https://github.com/sqlancer/sqlancer/blob/3e960fb16fac42ed8f43eecf25eb4d09a5be9d85/pom.xml#L307), while the latest version is [8.36.0](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-36.html). Similarly, many of our [CI tests](https://github.com/sqlancer/sqlancer/blob/3e960fb16fac42ed8f43eecf25eb4d09a5be9d85/.github/workflows/main.yml) have become outdated and fail due to various reasons. The goal of this project is to update SQLancer so it can be applied to the latest versions of these systems. In the process, new bugs will likely be discovered, which should be reported to the developers of the database systems.
