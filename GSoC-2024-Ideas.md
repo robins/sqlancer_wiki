@@ -17,6 +17,7 @@ SQLancer's user interface is limited by printing regular status update to the co
 * **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected. In addition, this project requires experience with creating user interfaces.
 * **Expected size**: 350 hours
 * **Difficulty**: Medium
+* **Expected outcomes**: A working prototype for a new user interface
 
 ## Updating SQLancer to the Latest Database System Versions
 
@@ -25,6 +26,7 @@ SQLancer supports more than 20 database systems through custom SQL generators. H
 * **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Easy
+* **Expected outcomes**: Updating support for most of the (around 20) database systems to the latest version, and reporting any new bugs in them that are found in the process
 
 ## Adding Support for and Testing New Database Systems
 
@@ -35,6 +37,7 @@ The goal of this project could be to add support for one or multiple database sy
 * **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
+* **Expected outcomes**: Support for one (or multiple) new database systems as well as reporting of bugs found in that system
 
 Various additional hints:
 
