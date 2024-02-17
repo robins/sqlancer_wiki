@@ -64,4 +64,4 @@ To address this, the project will implement a method for SQLancer to not only ou
 - **Expected size** : 175
 - **Difficulty**: Medium
 - **Expected outcomes**: Support for storing the interestingness test in a format that can be easily utilized with external reducers.
-- **Potential mentor**: @mzfr
+- **Potential mentors**: [@mzfr](https://github.com/mzfr)
