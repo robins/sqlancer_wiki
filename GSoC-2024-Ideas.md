@@ -53,3 +53,15 @@ Individual SQLancer database system implementations currently provide options to
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Easy
 * **Expected outcomes**: A unified set of options supported by all database system implementations
+
+## Adding Support for Adding an External Reducer
+
+The aim of this project is to enhance SQLancer by incorporating support for storing associated interestingness tests along with reported test cases, which is needed to support external test-case reducers. SQLancer already has its own built-in [reducers](https://github.com/sqlancer/sqlancer/blob/main/src/sqlancer/Reducer.java), such as [ASTBasedReducer](https://github.com/sqlancer/sqlancer/blob/main/src/sqlancer/ASTBasedReducer.java) and [StatementReducer](https://github.com/sqlancer/sqlancer/blob/main/src/sqlancer/StatementReducer.java), which minimize bug-inducing test cases that are found, but they are tightly integrated into its system, making it challenging to use and compare their efficiency with existing reducers like [creduce](https://github.com/csmith-project/creduce), which might be effective in reducing a wide range of SQL dialects and other query languages. 
+
+To address this, the project will implement a method for SQLancer to not only output test cases but also provide their associated interestingness tests. The format of the interestingness test will be designed to seamlessly integrate with popular existing tools like creduce, vulcan, and perses (in that order of priority), out of the box.
+
+- **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
+- **Expected size** : 175
+- **Difficulty**: Medium
+- **Expected outcomes**: Support for storing the interestingness test in a format that can be easily utilized with external reducers.
+- **Potential mentor**: @mzfr
