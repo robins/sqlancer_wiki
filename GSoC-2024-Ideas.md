@@ -44,3 +44,12 @@ Various additional hints:
 * Most implementations use JDBC, which is well-supported by SQLancer.
 * To get an idea of what database systems you could consider supporting, the [DB-Engines ranking](https://db-engines.com/en/ranking/relational+dbms) or the [Database of Databases](https://dbdb.io/) might be useful.
 * It would be useful to first contact the developers of the database system to check whether they would welcome a testing effort of their system.
+
+## Finer Control of Features Used in Queries
+
+Individual SQLancer database system implementations currently provide options to control what features are included in statements and queries generated for these database system. For example, the SQLite implementation provides a [``--test-functions`` option](https://github.com/sqlancer/sqlancer/blob/3e960fb16fac42ed8f43eecf25eb4d09a5be9d85/src/sqlancer/sqlite3/SQLite3Options.java#L62) that controls whether expressions can include function calls. The goal of this project is to introduce a common set of options that is used by every system, similar to the [`--max-expression-depth` option](https://github.com/sqlancer/sqlancer/blob/3e960fb16fac42ed8f43eecf25eb4d09a5be9d85/src/sqlancer/MainOptions.java#L35) that is currently supported by all (or most) database system implementations. Introducing such options will also require improving other parts of the codebase, to enforce that new implementations implicitly make use of these options.
+
+* **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
+* **Expected size**: Either 175 or 350 hour
+* **Difficulty**: Easy
+* **Expected outcomes**: A unified set of options supported by all database system implementations
