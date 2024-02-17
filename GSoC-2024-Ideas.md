@@ -18,6 +18,7 @@ SQLancer's user interface is limited by printing regular status update to the co
 * **Expected size**: 350 hours
 * **Difficulty**: Medium
 * **Expected outcomes**: A working prototype for a new user interface
+* **Potential mentors**: [@suyZhong](https://github.com/suyZhong)
 
 ## Updating SQLancer to the Latest Database System Versions
 
@@ -53,6 +54,7 @@ Individual SQLancer database system implementations currently provide options to
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Easy
 * **Expected outcomes**: A unified set of options supported by all database system implementations
+* **Potential mentors**: [@suyZhong](https://github.com/suyZhong)
 
 ## Adding Support for Adding an External Reducer
 
