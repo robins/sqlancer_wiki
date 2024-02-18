@@ -28,6 +28,7 @@ SQLancer supports more than 20 database systems through custom SQL generators. H
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Easy
 * **Expected outcomes**: Updating support for most of the (around 20) database systems to the latest version, and reporting any new bugs in them that are found in the process
+* **Potential mentors**: [@malwaregarry](https://github.com/malwaregarry)
 
 ## Adding Support for and Testing New Database Systems
 
@@ -39,6 +40,7 @@ The goal of this project could be to add support for one or multiple database sy
 * **Expected size**: Either 175 or 350 hour
 * **Difficulty**: Medium
 * **Expected outcomes**: Support for one (or multiple) new database systems as well as reporting of bugs found in that system
+* **Potential mentors**: [@malwaregarry](https://github.com/malwaregarry)
 
 Various additional hints:
 
