@@ -10,4 +10,13 @@ To maximize your chance of submitting a successful proposal, we recommend the fo
 
 # Projects Ideas
 
-TBD
+## Adding a Feedback-guided Fuzzing Approach
+
+Currently, the main approach used by SQLancer to generate test cases is generation-based and black-box. The goal of this project is to add mutation-based fuzzing support to SQLancer. To this end, random decisions in the generators (mostly implemented in the [Randomly class](https://github.com/sqlancer/sqlancer/blob/8f4966a1b67dff22951f2bf3e0a02ad301fb86f1/src/sqlancer/Randomly.java)) should be recorded as seed inputs (so-called [decision seeds](https://arxiv.org/pdf/2109.11277)), and further mutated. Different ways of measuring whether a test input triggers an interesting behavior should be tried and experimented with; for example, [query plans are one potential feedback signal](https://arxiv.org/pdf/2312.17510).
+
+Required skills:
+* Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
+* Expected size: Either 175 or 350 hour
+* Difficulty: Medium
+* Expected outcomes: Initial prototype that can be merged into the main SQLancer repository
+* Potential mentors: 
