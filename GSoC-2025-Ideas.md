@@ -27,6 +27,7 @@ Various additional hints:
 * Most implementations use JDBC, which is well-supported by SQLancer.
 * To get an idea of what database systems you could consider supporting, the [DB-Engines ranking](https://db-engines.com/en/ranking/relational+dbms) or the [Database of Databases](https://dbdb.io/) might be useful.
 * It would be useful to first contact the developers of the database system to check whether they would welcome a testing effort of their system.
+
 ## Adding a Feedback-guided Fuzzing Approach
 
 Currently, the main approach used by SQLancer to generate test cases is generation-based and black-box. The goal of this project is to add mutation-based fuzzing support to SQLancer. To this end, random decisions in the generators (mostly implemented in the [Randomly class](https://github.com/sqlancer/sqlancer/blob/8f4966a1b67dff22951f2bf3e0a02ad301fb86f1/src/sqlancer/Randomly.java)) should be recorded as seed inputs (so-called [decision seeds](https://arxiv.org/pdf/2109.11277)), and further mutated. Different ways of measuring whether a test input triggers an interesting behavior should be tried and experimented with; for example, [query plans are one potential feedback signal](https://arxiv.org/pdf/2312.17510).
