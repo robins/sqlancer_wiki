@@ -37,3 +37,15 @@ Currently, the main approach used by SQLancer to generate test cases is generati
 * **Difficulty**: Medium
 * **Expected outcomes**: Initial prototype that can be merged into the main SQLancer repository
 * **Potential mentors**: [@albertZhangTJ](https://github.com/albertZhangTJ)
+
+## Adding support for latest Postgres version
+
+Today, SQLancer only supports Postgres version 12, which became [End-of-Life](https://www.postgresql.org/support/versioning/) in Nov 2024. The goal of this project is to advance SQLancer to support the latest version of Postgres, which would involve not just modifying generators to address deprecations and new features launched.
+
+Changes in a Postgres version can be reviewed in the release notes (for e.g. in order to make SQLancer support version 17 of Postgres, the [v17 release notes](https://www.postgresql.org/docs/release/17.0/) would highlight the key changes). A stretch goal would be to add support for features, such as additional data-types (JSON), procedural extensions, etc. Additionally, for databases that are already supported by SQLancer, it would be beneficial to extend support to their latest versions.
+
+- **Required skills**: Strong Java skills are essential and experience with using Git as well as basic SQL knowledge is expected
+- **Expected size**: Either 175 or 350 hour
+- **Difficulty**: Medium
+- **Expected outcomes**: Support the latest version of Postgres (HEAD branch)
+- **Potential mentors**: [@robins](https://github.com/robins)
